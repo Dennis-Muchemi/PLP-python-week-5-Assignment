@@ -27,7 +27,7 @@ class Car(Vehicle):
         basic_info = super().display_info()
         return f"{basic_info}, Fuel: {self.fuel_type}, Seats: {self.seats}"
 
-# Main program
+# Main program for Q1
 if __name__ == "__main__":
     # Create a Car instance
     my_car = Car("Toyota", "Camry", 2023, "Gasoline", 5)
@@ -68,7 +68,7 @@ class Fish(Animal):
 def demonstrate_movement(animal):
     animal.move()
 
-# Main program
+# Main program for Q2
 if __name__ == "__main__":
     # Create instances of each class
     dog = Dog()
